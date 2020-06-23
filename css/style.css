@@ -1,3 +1,10 @@
+
+
+
+/* MANCANO MOLTI PARTICOLARI NELLE SECTION GIà FATTE,
+ IL NAV, LE ULTIME SECTION E IL RESPONSIVE */
+
+
 .azzurro {
     /* height: 600px; */
     background-color: rgb(0,96,255);
@@ -13,21 +20,24 @@
 }
 
 footer {
-    height: 500px;
+    /* height: 500px; */
     background-color: rgb(1,14,40);
 }
 
 .container {
     text-align: center;
+
 }
 
 h3 {
     font-size: 35px;
     font-weight: bold;
+    margin-bottom: 20px;
 }
 
 p {
     font-size: 21px;
+    margin-bottom: 20px;
 }
 
 
@@ -116,6 +126,11 @@ h5 {
     color: rgb(91,105,165);
 }
 
+.ri_customers img {
+    width: 100%;
+    height:auto;
+}
+
 .stories {
     font-size: 15px;
     font-weight: bold;
@@ -127,12 +142,14 @@ h5 {
 
 /* 3 Section */
 
-.ri_deploy {
-    margin: 100px auto;
+
+.ri_deploy-row {
+    margin-bottom: 60px;
+    margin-top: 100px;
 }
 
-.ri_deploy .row:first-child {
-    margin-bottom: 60px;
+.ri_deploy .lista .row:last-child {
+    margin-bottom: 100px;
 }
 
 .ri_deploy .lista .row:first-child {
@@ -160,5 +177,76 @@ h5 {
 }
 
 .ri_deploy .lista p {
+    font-size: 15px;
+}
+
+/* 4 Section */
+
+.ri_designed .row:first-child {
+    margin-top: 100px;
+}
+
+.ri_designed .row:last-child {
+    margin-bottom: 100px;
+}
+
+.ri_designed .immagine {
+    margin: 60px 0 20px;
+}
+
+.ri_designed img {
+    width: 80%;
+    height:auto;
+}
+
+.ri_designed .immagine::before {
+    content: "<";
+    font-size: 40px;
+    margin-right: 40px;
+}
+
+.ri_designed .immagine::after {
+    content: ">";
+    font-size: 40px;
+    margin-left: 40px;
+
+}
+
+
+.ri_designed span {
+    font-size: 15px;
+}
+
+/* 5 Section */
+
+.ri_features {
+    text-align: left;
+}
+
+.ri_features .row:first-child {
+    margin-top: 100px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.ri_features .row:last-child {
+    margin-bottom: 100px;
+}
+
+.ri_features img {
+    width: 50px;
+    height: auto;
+}
+
+.ri_features h4 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.ri_features p {
+    font-size: 15px;
+}
+
+.ri_features a {
     font-size: 15px;
 }
