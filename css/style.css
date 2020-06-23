@@ -1,0 +1,164 @@
+.azzurro {
+    /* height: 600px; */
+    background-color: rgb(0,96,255);
+}
+
+.bianco {
+    /* height: 500px; */
+}
+
+.grigio {
+    /* height:500px; */
+    background-color: rgb(243,245,249);
+}
+
+footer {
+    height: 500px;
+    background-color: rgb(1,14,40);
+}
+
+.container {
+    text-align: center;
+}
+
+h3 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 21px;
+}
+
+
+/* navbar */
+
+.ri_navbar {
+    background-color: white;
+    color: rgb(40,60,104);
+}
+
+.ri_navbar button {
+    margin-top: 11px;
+}
+
+
+/* 1 Section */
+
+.azzurro .jumbotron {
+    margin: 60px 0;
+}
+
+.ri_title {
+    color: white;
+    background: none;
+    text-align: left;
+}
+
+h1 {
+    font-weight: bold
+}
+
+.ri_form {
+ background-color: white;
+ text-align: center;
+}
+
+.ri_form h3 {
+    font-weight: bold;
+}
+
+.ri_form p {
+    color: rgb(0,96,255);
+    font-weight: bold;
+}
+.ri_form button {
+    width: 100%;
+    font-size: 13px;
+    color: black;
+    background-color: white;
+    border-bottom: 1px solid rgb(243,245,249);
+    border-right: 1px solid rgb(243,245,249);
+    border-top: none;
+    border-left: none;
+    border-radius: 5px;
+    padding: 5px 0;
+    outline: none;
+}
+
+.ri_form button img {
+    width: 15px;
+    height: auto;
+    float: left;
+    margin-left: 10px;
+    position: relative;
+    top: 2px;
+}
+
+.ri_form span {
+    font-size: 12px;
+}
+
+.ri_form span a {
+    text-decoration: underline;
+}
+
+/* 2 Section */
+
+.ri_customers .row {
+    margin: 40px 0;
+}
+
+h5 {
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(91,105,165);
+}
+
+.stories {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.ri_customers .row i {
+    font-size: 10px;
+}
+
+/* 3 Section */
+
+.ri_deploy {
+    margin: 100px auto;
+}
+
+.ri_deploy .row:first-child {
+    margin-bottom: 60px;
+}
+
+.ri_deploy .lista .row:first-child {
+    margin-bottom: 20px;
+}
+
+.ri_deploy .lista {
+    text-align: left;
+}
+
+.ri_deploy ul {
+    list-style: none;
+
+}
+
+.ri_deploy li {
+    font-size: 15px;
+    padding: 15px 5px;
+    border-left: 2px solid rgb(229,232,237);
+}
+
+.ri_deploy h4 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.ri_deploy .lista p {
+    font-size: 15px;
+}
