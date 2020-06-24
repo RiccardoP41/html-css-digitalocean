@@ -1,9 +1,13 @@
 
 
 
-/* MANCANO MOLTI PARTICOLARI NELLE SECTION GIà FATTE,
- IL NAV, LE ULTIME SECTION E IL RESPONSIVE */
-
+/* MANCANO PARTICOLARI NELLE SECTION GIà FATTE e 
+  IL RESPONSIVE */
+ .clearfix::after {
+    content:"";
+    display: table;
+    clear: both;
+}
 
 .azzurro {
     /* height: 600px; */
@@ -21,7 +25,7 @@
 
 footer {
     padding: 100px 0;
-    height: 1000px;
+    /* height: 1000px; */
     background-color: rgb(1,14,40);
     color: white;
 }
@@ -46,22 +50,56 @@ section {
     padding: 100px 0;
 }
 
+.fish {
+    background-image: url(https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.world {
+    background-color: rgb(3,27,78);
+    background-image: url(https://images.prismic.io/www-static/bb563ec9-49ef-4ceb-8468-da84f1509fcc_bg-map-solid.svg?auto=compress,format);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 /* navbar */
 
-.ri_navbar {
-    background-color: white;
-    color: rgb(40,60,104);
+
+
+#logo {
+    margin-right: 80px;
 }
 
-.ri_navbar button {
-    margin-top: 11px;
+#sign_up {
+    margin-top: 9px;
+    color: rgb(0,96,255);
+    border: 1px solid rgb(0,96,255);
+    border-radius: 5px;
+    background-color: white;
+    padding: 5px 5px;
 }
+
 
 
 /* 1 Section */
+.fish {
+    position: relative;
+}
 
+/* .fish img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 
+} */
+
+#jumbo {
+    padding-left: 0;
+}
 .ri_title {
     color: white;
     background: none;
@@ -196,6 +234,7 @@ h5 {
 }
 
 .ri_designed .immagine::before {
+    /* content: " <i class="fas fa-arrow-left"></i> "; */
     content: "<";
     font-size: 40px;
     margin-right: 40px;
@@ -245,18 +284,27 @@ h5 {
 
 /* 6 Section */
 
+.ri_service h3 {
+    color: white;
+}
+
+.ri_service .row p {
+    color: white;
+}
 
 .ri_service h5 {
     color: white;
     float: left;
     margin: 2px auto;
     margin-right: 50px;
+
 }
 
 .ri_service .row .row p  {
     color: rgb(129,141,167);
     font-size: 15px;
     float: left;
+    margin-bottom: 10px;
 }
 
 .ri_service .row .row a {
@@ -264,23 +312,15 @@ h5 {
     float: right;
 }
 
-/* .ri_service .row .row div {
-    border-bottom: 1px solid white;
-} */
-
-
 .barra {
-    padding: 5px;
     border-bottom: 1px solid white;
-    background-color: red;
-    height: 15px;
+    margin-top: 10px;
 }
+
 
 /* 7 Section */
 
-.ri_development .row :first-child {
-    margin
-}
+
 
 .ri_development h3 {
     margin-bottom: 80px;
@@ -310,7 +350,7 @@ h5 {
     font-weight: bold;
 }
 
-.ri_development .fa-circle {
+.fa-circle {
     color: rgb(0,105,255);
 }
 

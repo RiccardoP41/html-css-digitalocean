@@ -12,7 +12,7 @@
 
         <header>
 
-                <!-- <nav class="navbar navbar-default ri_navbar navbar-fixed-top"> -->
+                <nav class="navbar navbar-default ri_navbar navbar-fixed-top">
                   <div class="container">
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header">
@@ -22,14 +22,14 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                       </button>
-                      <a class="navbar-brand" href="#">Brand</a>
+                      <a id="logo" class="navbar-brand" href="#"><img src="https://images.prismic.io/www-static/49aa0a09-06d2-4bba-ad20-4bcbe56ac507_logo.png?auto=compress,format" height="20px" alt="logo"></a>
                     </div>
 
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                       <ul class="nav navbar-nav">
                           <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products <span class="caret"></span></a>
                             <ul class="dropdown-menu">
                               <li><a href="#">Action</a></li>
                               <li><a href="#">Another action</a></li>
@@ -40,9 +40,9 @@
                               <li><a href="#">One more separated link</a></li>
                             </ul>
                           </li>
-                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Customers</a></li>
                         <li class="dropdown">
-                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Community <span class="caret"></span></a>
                           <ul class="dropdown-menu">
                             <li><a href="#">Action</a></li>
                             <li><a href="#">Another action</a></li>
@@ -53,12 +53,12 @@
                             <li><a href="#">One more separated link</a></li>
                           </ul>
                         </li>
-                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Pricing</a></li>
                       </ul>
                       <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Docs</a></li>
                         <li class="dropdown">
-                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Support <span class="caret"></span></a>
                           <ul class="dropdown-menu">
                             <li><a href="#">Action</a></li>
                             <li><a href="#">Another action</a></li>
@@ -67,8 +67,8 @@
                             <li><a href="#">Separated link</a></li>
                           </ul>
                         </li>
-                        <li><a href="#">Link</a></li>
-                        <button>Submit</button>
+                        <li><a href="#">Login</a></li>
+                        <button id="sign_up">Sign Up</button>
                       </ul>
 
                     </div><!-- /.navbar-collapse -->
@@ -78,11 +78,12 @@
         </header>
 
 
-        <section class="azzurro">
+        <section class="azzurro fish">
+            <!-- <img src="https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg" alt="sfondo"> -->
             <div class="container">
                 <div class="row">
                     <div class="col-md-8">
-                        <div class="jumbotron ri_title">
+                        <div id="jumbo" class="jumbotron ri_title">
                           <h1>The simplest cloud platform for developers & teams</h1>
                           <p>Deploy, manage and scale cloud application faster and more efficiently on DigitalOcean. we make managing infrastructure easy for teams and businesses, whether you are running one virtual machine on ten thousand.</p>
                         </div>
@@ -244,6 +245,9 @@
                 <div class="row">
                     <span>Create compute servers in 55 seconds or less.</span>
                 </div>
+                <div class="row">
+                    <span><i class="fas fa-circle"></i> <i class="far fa-circle"></i> <i class="far fa-circle"></i> <i class="far fa-circle"></i> </span>
+                </div>
             </div>
 
         </section>
@@ -281,7 +285,7 @@
         </section>
 
 
-        <!-- <section class="azzurro">
+        <section class="azzurro world">
             <div class="container ri_service">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
@@ -292,41 +296,106 @@
                     </div>
                     <div class="row">
                         <div class="col-md-6">
-                            <div class="gianni">
-
+                            <div class="barra clearfix">
                                     <h5>ams2</h5>
                                     <p>Amsterdam, Netherlands</p>
                                     <a href="#">Test Speed ></a>
-
                             </div>
-
-
-
-
-
-
-
-
-
                         </div>
                         <div class="col-md-6">
-                            <div class="location">
-                                <h5>ams2</h5>
-                                <p>Amsterdam, Netherlands</p>
-                                <a href="#">Test Speed ></a>
+                            <div class="barra clearfix">
+                                    <h5>AMS3</h5>
+                                    <p>Amsterdam, Netherlands</p>
+                                    <a href="#">Test Speed ></a>
                             </div>
-
-
                         </div>
-
-
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="barra clearfix">
+                                    <h5>BLR1</h5>
+                                    <p>Bangalore, India</p>
+                                    <a href="#">Test Speed ></a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="barra clearfix">
+                                    <h5>FRA1</h5>
+                                    <p>Frankfurt, Germany</p>
+                                    <a href="#">Test Speed ></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="barra clearfix">
+                                    <h5>LON1</h5>
+                                    <p>London, UK</p>
+                                    <a href="#">Test Speed ></a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="barra clearfix">
+                                    <h5>NYC1</h5>
+                                    <p>New York, NY</p>
+                                    <a href="#">Test Speed ></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="barra clearfix">
+                                    <h5>NYC2</h5>
+                                    <p>New York, NY</p>
+                                    <a href="#">Test Speed ></a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="barra clearfix">
+                                    <h5>NYC3</h5>
+                                    <p>New York, NY</p>
+                                    <a href="#">Test Speed ></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="barra clearfix">
+                                    <h5>SFO1</h5>
+                                    <p>San Francisco, CA</p>
+                                    <a href="#">Test Speed ></a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="barra clearfix">
+                                    <h5>SFO2</h5>
+                                    <p>San Francisco, CA</p>
+                                    <a href="#">Test Speed ></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="barra clearfix">
+                                    <h5>SFO3</h5>
+                                    <p>San Francisco, CA</p>
+                                    <a href="#">Test Speed ></a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="barra clearfix">
+                                    <h5>SGP1</h5>
+                                    <p>Singapore</p>
+                                    <a href="#">Test Speed ></a>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
 
             </div>
 
-        </section> -->
+        </section>
 
 
         <section class="grigio">
@@ -449,7 +518,7 @@
                         <li>Contact support</li>
                         <li>FAQ</li>
                         <li>network status</li>
-                    
+
                     </ul>
 
                 </div>
