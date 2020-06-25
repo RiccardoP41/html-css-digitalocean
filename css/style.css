@@ -1,7 +1,7 @@
 
 
 
-/* MANCANO PARTICOLARI NELLE SECTION GIà FATTE e 
+/* MANCANO PARTICOLARI NELLE SECTION GIà FATTE e
   IL RESPONSIVE */
  .clearfix::after {
     content:"";
@@ -88,15 +88,6 @@ section {
     position: relative;
 }
 
-/* .fish img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-
-} */
-
 #jumbo {
     padding-left: 0;
 }
@@ -171,9 +162,9 @@ h5 {
     color: rgb(91,105,165);
 }
 
+
 .ri_customers img {
-    width: 100%;
-    height:auto;
+    margin: 0 auto;
 }
 
 .stories {
@@ -223,28 +214,27 @@ h5 {
 
 /* 4 Section */
 
+.ri_designed .fa-arrow-left {
+    position: relative;
+    top: 240px;
+    font-size: 20px;
+}
+
+.ri_designed .fa-arrow-right {
+    position: relative;
+    top: 240px;
+    font-size: 20px;
+
+}
+
 
 .ri_designed .immagine {
     margin: 60px 0 20px;
 }
 
 .ri_designed img {
-    width: 80%;
+    width: 100%;
     height:auto;
-}
-
-.ri_designed .immagine::before {
-    /* content: " <i class="fas fa-arrow-left"></i> "; */
-    content: "<";
-    font-size: 40px;
-    margin-right: 40px;
-}
-
-.ri_designed .immagine::after {
-    content: ">";
-    font-size: 40px;
-    margin-left: 40px;
-
 }
 
 
@@ -263,6 +253,9 @@ h5 {
     text-align: center;
 }
 
+.ri_features .carta{
+    margin-bottom: 20px;
+}
 
 .ri_features img {
     width: 50px;
@@ -283,6 +276,7 @@ h5 {
 }
 
 /* 6 Section */
+
 
 .ri_service h3 {
     color: white;
@@ -314,7 +308,8 @@ h5 {
 
 .barra {
     border-bottom: 1px solid white;
-    margin-top: 10px;
+    margin: 0 10px 10px;
+    padding: 0 10px;
 }
 
 
@@ -331,8 +326,8 @@ h5 {
     padding: 40px 10px;
 }
 
-.ri_development .rockerbox {
-    width: 50%;
+.ri_development img {
+    width: 100%;
     height: auto;
     margin-bottom: 20px;
 }
@@ -353,6 +348,7 @@ h5 {
 .fa-circle {
     color: rgb(0,105,255);
 }
+
 
 .ri_development .fa-arrow-left {
     position: relative;
@@ -402,6 +398,7 @@ h5 {
 .ri_footer ul {
     list-style: none;
     padding: 0;
+    margin-bottom: 20px;
 }
 
 .ri_footer li {
@@ -428,4 +425,44 @@ h5 {
     text-align: left;
     padding-bottom: 10px;
     font-size: 15px;
+}
+
+
+/* Media */
+
+@media (max-width: 992px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
 }
